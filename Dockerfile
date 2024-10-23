@@ -8,5 +8,4 @@ RUN rm -f package-lock.json
 
 RUN npm install
 
-# Comando di avvio
 CMD ["node", "index.js"]
