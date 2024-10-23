@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  discord:
+    build: .
+    container_name: discord_forever_online
+    environment:
+      - token=INSERT_TOKEN_HERE
+    restart: always
+    command: ["node", "index.js"]

@@ -1,5 +1,6 @@
 const Eris = require("eris");
-const keep_alive = require('./keep_alive.js')
+
+console.log("Starting with token: " + process.env.token);
 
 // Replace TOKEN with your bot account's token
 const bot = new Eris(process.env.token);
